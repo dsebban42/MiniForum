@@ -1,0 +1,141 @@
+button {
+	margin: 4px;
+}
+
+#root {
+	display: flex;
+	justify-content: center;
+	font-family: Lucida Console;
+}
+
+h3 {
+	margin-top: 0;
+	background-color: #fff;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	background-image: linear-gradient(to right, #efeff3 , #c3d1fa);
+}
+.well {
+	margin-bottom: 10px;
+	background-color: white;
+	padding: 10px;
+	width: 580px;
+	word-wrap: break-word;
+}
+#newComment {
+	width: 12.5em;
+	text-align: center;
+	background-color: #d8d8d8;
+	height: 27px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 12px;
+}
+
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	animation: App-logo-spin infinite 20s linear;
+	height: 40vmin;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.btn-group {
+	display: flex;
+	left: -240px;
+}
+
+.postContent {
+	background-color: white;
+	border: 1px solid #d1d1d1;
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 15px;
+}
+
+.metaContainer {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.commentsContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.publishComment {
+	position: relative;
+	left: 498px;
+}
+
+.txtAreaComment {
+	width: 580px;
+}
+
+.gblContainer {
+	width: 600px;
+	height: 95%;
+}
+
+.postContainer {
+	border: 1px solid #d1d1d1;
+	background-color: #f8f8f8;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.postContainer h5 {
+	align-self: center;
+}
+
+.postTitleContainer {
+	padding-left: 0;
+	align-self: center;
+}
+
+.meta-buttons p {
+	margin-bottom: 0px;
+}
+
+
+.leftInfos {
+	align-self: flex-end;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+.logEngine {
+	position: absolute;
+    background: gray;
+    width: 100px;
+    height: 50px;
+    right: 0px;
+}
